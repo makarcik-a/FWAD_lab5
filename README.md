@@ -468,9 +468,9 @@ class User extends Authenticatable
 
 - В `DashboardController` добавлены проверки ролей пользователя.
 - Администратор имеет доступ к личным кабинетам всех пользователей.
-![alt text](image4.png)
+![alt text](image3.png)
 - Обычный пользователь может просматривать только свой личный кабинет.
-![alt text](image5.png)
+![alt text](image4.png)
 ### 4. Выход и защита от CSRF
 
 #### 4.1 Добавление кнопки выхода на страницу
@@ -506,7 +506,7 @@ class User extends Authenticatable
     </div>
 </nav>
 ```
-![alt text](image6.png)
+![alt text](image5.png)
 #### 4.2 Защита форм от CSRF-атак
 
 - Во всех формах добавлена директива `@csrf` для включения токена CSRF.
